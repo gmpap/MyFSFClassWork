@@ -1,0 +1,50 @@
+body {
+    background-color: #efeee7;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    
+    
+}
+h1{
+    color: #eee;
+    font-size: 28px;
+}
+
+.container{
+    margin: 0 auto;
+    margin-left: 2%;
+}
+
+h2{
+    font-size: 24px;
+  
+
+}
+
+#main-bio, #contact-info, #bio-image{
+    /*float: left;
+    removing this puts the text under the image*/
+
+}
+
+#bio-image{
+    width: 200px;
+}
+
+#main-bio{
+    /*float: left;
+    Removing this from "main Bio" Aligned the 2 sections 
+    underneath Div Class= to stack underneath as they should*/
+width: 70%;
+}
+
+header h1{
+    text-align: center;
+    
+}

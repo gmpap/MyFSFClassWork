@@ -1,0 +1,124 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+}
+
+/*This is the header row*/
+
+header {
+  padding: 1.1em;
+  /*Set the amount of blank space below the padding?*/
+  margin-bottom: 1em;
+  color: #333;
+  background: #ccc;
+  font-size: 50px;
+}
+/*This is the main body of the page - ie section - refer to html code*/
+
+section {
+  
+}
+
+/* the left box of the second row*/
+
+#left {
+  float: left;
+  /*changes the width of the box to 1/3 of the screen*/
+  width: 33.33%;
+  background-color: #666;
+    /*changes the changes the amount of space arround the text*/
+  padding: 1.1em;
+  /* color of the text*/
+  color: white;
+  font-size: 50px;
+}
+
+/* the middle box of the second row*/
+
+#middle {
+  float: left;
+  /*changes the width of the box to 1/3 of the screen*/
+  width: 33.33%;
+  background-color:#888;
+   /*changes the changes the amount of space arround the text*/
+  padding: 1.1em;
+  /* color of the text*/
+  color: white;
+  font-size: 50px;
+}
+
+/* the right box of the second row*/
+
+#right {
+  float: left;
+  /*changes the width of the box to 1/3 of the screen*/
+  width: 33.33%;
+  background-color: #666;
+  /*changes the changes the amount of space arround the text*/
+  padding: 1.1em;
+  /* color of the text*/
+  color: white;
+  font-size: 50px;
+}
+
+/*this is the main grey box labelled section
+the following two boxes are elements of the main box "#full*/
+
+#full {
+  float: left;
+  width: 100%;
+  height: 15.2em;
+  background-color: #eee;
+  margin-top: 1em;
+  padding: 40px;
+  font-size: 50px;
+  
+  
+  
+}
+
+/*This is the center blue box*/
+#division {
+  
+  background-color: #6ea3da;
+  padding: 1.1em;
+  width: 100%;
+  margin-top: 3em
+
+
+}
+/*This is the white box element*/
+aside {
+  float: left;
+  background-color: #fff;
+  
+  width: 33%;
+  height: 13.5em;
+  padding: 1em;
+  margin-left: 1.9em;
+  overflow: auto;
+
+  
+}
+
+footer {
+ 
+  float: left;
+  background-color: #ccc;
+  font-size: 50px;
+  padding: 1.1em;
+  width: 100%;
+  /*this moves the box down*/
+  margin-top: 1em;
+
+  
+
+
+}
