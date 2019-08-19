@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors Part 1</title>
+</head>
+
+<body>
+
+  <div id="game">
+
+  </div>
+
+  <script type="text/javascript">
+    // Whenever a key is pressed, alert "pressed a button".
+    document.onkeyup = function () {
+      alert("pressed a button");
+    };
+    var player1 = prompt("Player 1 Enter your choice, rock, paper or scissors");
+    var player2 = prompt("Player 1 Enter your choice, rock, paper or scissors");
+    console.log(player1);
+    console.log(player2);
+
+    if (player1.toLowerCase() === player2.toLowerCase()) {
+      alert("The game is a tie, thanks for playing");
+    }
+    else {
+      if (player1.toLowerCase() === "rock") {
+        if (player2.toLowerCase() === "scissors") {
+          alert("Player 1 wins!!")
+        }
+        else {
+          if (player1.toLowerCase() === "rock") {
+            if (player2.toLowerCase() === "paper") {
+              alert("Player 2 wins!!")
+            }
+          }
+        }
+      }
+      if (player1.toLowerCase() === "rock") {
+        if (player2.toLowerCase() === "scissors") {
+          alert("Player 1 wins!!")
+        }
+        else {
+          if (player1.toLowerCase() === "rock") {
+            if (player2.toLowerCase() === "paper") {
+              alert("Player 2 wins!!")
+            }
+          }
+        }
+      }
+
+      if (player1.toLowerCase() === "rock") {
+        if (player2.toLowerCase() === "scissors") {
+          alert("Player 1 wins!!")
+        }
+        else {
+          if (player1.toLowerCase() === "rock") {
+            if (player2.toLowerCase() === "paper") {
+              alert("Player 2 wins!!")
+            }
+          }
+        }
+      }
+
+
+
+
+
+    }
+
+
+
+
+  </script>
+
+
+</body>
+
+</html>

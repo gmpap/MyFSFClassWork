@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+    background-color: aqua;
+    padding: 10px;
+    margin: 0 auto;
+}
+h1{
+    display: inline;
+    font-size: 45px;
+    margin: 0;
+    background-color:white;
+    margin-left: 400px;
+}
+nav{
+    float: right;
+    
+
+}
+
+li{
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 250px;
+    margin-left: -195px;
+    color:green;
+
+    
+    
+    
+
+
+
+}

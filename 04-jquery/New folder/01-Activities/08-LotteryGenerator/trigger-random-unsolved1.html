@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trigger Random</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <!-- Here we have div called "random-number" where our random number will go -->
+    <h1 class="text-center" id="random-number"></h1>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            function genLotteryNumb() {
+                var lotteryNumb;
+                for (i = 1; i < 10; i++) {
+                    if (i === 1) {
+                        lotteryNumb += Math.floor((Math.random() * 9) + 1);
+                    }
+                    else {
+                        lotteryNumb += Math.floor(Math.random() * 10);
+
+                    }
+
+                }
+                return lotteryNumb
+            }
+
+        }
+            // CREATE THE MISSING CODE HERE. Your code should add content to the random-number div.
+            // ...
+            var randNumb = Math.floor(Math.random() * 10);
+            console.log(randNumb);
+
+            // ...
+
+        });
+
+    </script>
+
+</body>
+
+</html>

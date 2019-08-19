@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic JavaScript Dump</title>
+
+    <!-- Here we create a bit of CSS for classes called ".fancy" -->
+    <style>
+      .fancy {
+        font-size: 100px;
+        color: green;
+      }
+    </style>
+
+</head>
+  <body>
+   <!--First we create an empty div.--> 
+    <div id="empty-div"></div>
+
+<!-- We now create a new JavaScript script. -->
+    <script type="text/javascript">
+
+// Inside, we latch onto the "emptyDiv" using the JavaScript ".getElementById" selector.
+      var targetDiv = document.getElementById("empty-div");
+
+// We then use the JavaScript method ".textContent" to change the content to "Hello friends!"
+      targetDiv.textContent = "Hello friends!";
+
+// If we try to add to the div using the same .textContent method... it just replaces the old content.
+// In this example, we instead create a new div called "newDiv".
+      var newDiv = document.createElement("div");
+
+// We then give this newDiv the text "A pleasure to meet you!".
+      newDiv.textContent = "A pleasure to meet you!";
+
+// Now we use the ".appendChild" method to combine the two divs together on the page.
+      targetDiv.appendChild(newDiv);
+
+      // We then apply that CSS in our head section, to our newDiv.
+      newDiv.setAttribute("class", "fancy");
+
+    </script>
+
+  </body>
+</html>
