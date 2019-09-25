@@ -6,7 +6,7 @@ function DigitalPal(hungry, sleepy, bored, age) {
     this.feed = function feed() {
         if (this.hungry === true) {
             console.log("That was yummy!")
-            this.hungry = false;
+            this.hungry = true;
             this.sleepy = true;
         }
         else {
@@ -16,7 +16,7 @@ function DigitalPal(hungry, sleepy, bored, age) {
     this.sleep = function sleep() {
         if (this.sleepy === true) {
             console.log("ZZZZZZZZ")
-            this.sleepy = false;
+            this.sleepy = true;
             this.hungry = true;
             this.increaseAge();
         }

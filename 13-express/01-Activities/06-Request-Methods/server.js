@@ -16,7 +16,7 @@ function handleRequest(req, res) {
     // Add it to requestData.
     requestData += data;
   });
-
+console.log(requestData);
   // When the request has ended...
   req.on("end", function() {
 

@@ -5,7 +5,7 @@ const command = procees.argv[2];
 
 switch (command) {
     case "total":
-        fs.readFile(DATA_FILE, 'utf8', (err, data) 
+        fs.readFile(DATA_FILE, 'utf8', (err, data)) 
 
             if (err) { return console.error(err); }
 
@@ -17,5 +17,5 @@ switch (command) {
 
         console.log(transactions);
 
-});
+};
 

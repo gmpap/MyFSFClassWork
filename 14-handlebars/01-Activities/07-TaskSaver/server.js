@@ -2,6 +2,7 @@ var express = require("express");
 var exphbs = require("express-handlebars");
 var mysql = require("mysql");
 
+//creates the app that runs express
 var app = express();
 
 // Set the port of our application
@@ -10,6 +11,7 @@ var PORT = process.env.PORT || 8080;
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
+//converts to an object...ie json
 app.use(express.json());
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
@@ -19,7 +21,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "",
+  password: "password",
   database: "task_saver_db"
 });
 
@@ -58,11 +60,15 @@ app.post("/", function(req, res) {
   // When using the MySQL package, we'd use ?s in place of any values to be inserted, which are then swapped out with corresponding elements in the array
   // This helps us avoid an exploit known as SQL injection which we'd be open to if we used string concatenation
   // https://en.wikipedia.org/wiki/SQL_injection
-  connection.query("INSERT INTO tasks (task) VALUES (?)", [req.body.task], function(err, result) {
-    if (err) throw err;
+  connection.query(
+    "INSERT INTO tasks (task) VALUES (?)",
+    [req.body.task],
+    function(err, result) {
+      if (err) throw err;
 
-    res.redirect("/");
-  });
+      res.redirect("/");
+    }
+  );
 });
 
 // Start our server so that it can begin listening to client requests.

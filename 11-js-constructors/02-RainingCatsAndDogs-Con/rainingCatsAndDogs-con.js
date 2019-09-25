@@ -1,6 +1,7 @@
 // constructor which can be used to create objects with the ".raining", ".noise",
 // and ".makenoise" properties
 function Animal(raining, noise) {
+  //this refers to the object Animal
   this.raining = raining;
   this.noise = noise;
   this.makeNoise = function() {

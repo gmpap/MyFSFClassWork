@@ -40,6 +40,6 @@ UPDATE people
 SET has_pet = true, pet_name = "Franklin", pet_age = 2
 WHERE id = 4;
 
-DELETE FRROM people WHERE id =5;
+DELETE FROM people WHERE id =5;
 
 SELECT * FROM people;

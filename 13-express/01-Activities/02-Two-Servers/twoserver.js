@@ -9,7 +9,9 @@ var PORT2 = 7500;
 function handleRequest1(request, response) {
 
     // Send the below string to the client when the user visits the PORT URL
+    
     response.end("It Works!! Path Hit: " + request.url);
+    
 }
 
 // Use the Node HTTP package to create our server.
@@ -27,6 +29,7 @@ function handleRequest2(request, response) {
 
     // Send the below string to the client when the user visits the PORT URL
     response.end("It Works!! Grovy Path Hit: " + request.url);
+    
 }
 
 // Use the Node HTTP package to create our server.
