@@ -1,0 +1,7 @@
+
+db.students.insertMany(
+[ ({"name": "George", rownumber":3, "os": "win", "hobbies": ["bbq", "cooking", "coding"]}) ,({"name":"Jatinder","rownumber":2,"os":"win","hobbies":["Sketching","Car Racing","Sleeping","Eating","Doing Business"]}),({"name": "Wajiha", rownumber":3, "os": "mac", "hobbies": "travelling"}) ])
+
+
+db.students.insertMany([{"name": "George", "rownumber":3, "os": "win", "hobbies": ["bbq", "cooking", "coding"]} ,{"name":"Jatinder","rownumber":2,"os":"win","hobbies":["Sketching","Car Racing","Sleeping","Eating","Doing Business"]},{"name": "Wajiha", "rownumber":3, "os": "mac", "hobbies": "travelling"}]
+)

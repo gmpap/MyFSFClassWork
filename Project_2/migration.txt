@@ -1,0 +1,274 @@
+
+------------------------------------------------------------------------------------
+MySQL Workbench Migration Wizard Report
+
+Date: Tue Oct  1 16:07:36 2019
+Source: MySQL 5.7.23
+Target: MySQL 8.0.17
+------------------------------------------------------------------------------------
+
+I. Migration
+
+1. Summary
+
+Number of migrated schemas: 1
+
+1. mf5n7ujr436kt9bn
+Source Schema:   mf5n7ujr436kt9bn
+
+- Tables:             12
+- Triggers:           0
+- Views:              0
+- Stored Procedures:  0
+- Functions:          0
+
+
+2. Migration Issues
+
+
+3. Object Creation Issues
+
+
+4. Migration Details
+
+4.1. Table mf5n7ujr436kt9bn.MenuItems_dup (MenuItems_dup)
+
+Columns:
+  - id INT(11)    
+  - item_class VARCHAR(255)  NULL  
+  - dish_name VARCHAR(255)  NULL  
+  - dish_desc TEXT  NULL  
+  - dish_price DECIMAL(10,2)  NULL  
+  - dish_img BLOB  NULL  
+  - isMain TINYINT(1)  NULL  
+  - isStarter TINYINT(1)  NULL  
+  - isDesert TINYINT(1)  NULL  
+  - isDrink TINYINT(1)  NULL  
+  - createdAt DATETIME    
+  - updatedAt DATETIME    
+
+Foreign Keys:
+
+Indices:
+  - PRIMARY (id)
+
+
+4.2. Table mf5n7ujr436kt9bn.Restaurants (Restaurants)
+
+Columns:
+  - id INT(11)    
+  - name VARCHAR(255)  NULL  
+  - createdAt DATETIME    
+  - updatedAt DATETIME    
+
+Foreign Keys:
+
+Indices:
+  - PRIMARY (id)
+
+
+4.3. Table mf5n7ujr436kt9bn.Steak (Steak)
+
+Columns:
+  - Id INT(11)  NULL  
+  - item_class TEXT  NULL  
+  - dish_name TEXT  NULL  
+  - dish_desc TEXT  NULL  
+  - dish_price DOUBLE  NULL  
+  - dish_img TEXT  NULL  
+
+Foreign Keys:
+
+Indices:
+
+
+4.4. Table mf5n7ujr436kt9bn.enuItems (enuItems)
+
+Columns:
+  - id INT(11)    
+  - item_class VARCHAR(255)  NULL  
+  - dish_name VARCHAR(255)  NULL  
+  - dish_desc TEXT  NULL  
+  - dish_price DECIMAL(10,2)  NULL  
+  - dish_img TEXT  NULL  
+  - isMain TINYINT(1)  NULL  
+  - isStarter TINYINT(1)  NULL  
+  - isDesert TINYINT(1)  NULL  
+  - isDrink TINYINT(1)  NULL  
+  - createdAt DATETIME    
+  - updatedAt DATETIME    
+
+Foreign Keys:
+
+Indices:
+  - PRIMARY (id)
+
+
+4.5. Table mf5n7ujr436kt9bn.images (images)
+
+Columns:
+  - id INT(11)    
+  - image BLOB  NULL  
+  - createdAt DATETIME    
+  - updatedAt DATETIME    
+
+Foreign Keys:
+
+Indices:
+  - PRIMARY (id)
+
+
+4.6. Table mf5n7ujr436kt9bn.italian (italian)
+
+Columns:
+  - Id INT(11)  NULL  
+  - item_class TEXT  NULL  
+  - dish_name TEXT  NULL  
+  - dish_desc TEXT  NULL  
+  - dish_price DOUBLE  NULL  
+  - dish_img TEXT  NULL  
+
+Foreign Keys:
+
+Indices:
+
+
+4.7. Table mf5n7ujr436kt9bn.italians (italians)
+
+Columns:
+  - id INT(11)    
+  - item_class VARCHAR(255)  NULL  
+  - dish_name VARCHAR(255)  NULL  
+  - dish_desc TEXT  NULL  
+  - dish_price DECIMAL(10,2)  NULL  
+  - dish_img TEXT  NULL  
+  - isMain TINYINT(1)  NULL  
+  - isStarter TINYINT(1)  NULL  
+  - isDesert TINYINT(1)  NULL  
+  - isDrink TINYINT(1)  NULL  
+  - createdAt DATETIME    
+  - updatedAt DATETIME    
+
+Foreign Keys:
+
+Indices:
+  - PRIMARY (id)
+
+
+4.8. Table mf5n7ujr436kt9bn.menuItem (menuItem)
+
+Columns:
+  - id INT(11)    
+  - item_class VARCHAR(255)  NULL  
+  - dish_name VARCHAR(255)  NULL  
+  - dish_desc TEXT  NULL  
+  - dish_price DECIMAL(10,2)  NULL  
+  - dish_img BLOB    
+  - createdAt DATETIME    
+  - updatedAt DATETIME    
+  - isStarter TINYINT(1)  NULL  
+  - isMain TINYINT(1)  NULL  
+  - isDesert TINYINT(1)  NULL  
+  - isDrink TINYINT(1)  NULL  
+
+Foreign Keys:
+
+Indices:
+  - PRIMARY (id)
+
+
+4.9. Table mf5n7ujr436kt9bn.menuItems (menuItems)
+
+Columns:
+  - id INT(11)    
+  - item_class VARCHAR(255)  NULL  
+  - dish_name VARCHAR(255)  NULL  
+  - dish_desc TEXT  NULL  
+  - dish_price DECIMAL(10,2)  NULL  
+  - dish_img TEXT  NULL  
+  - isMain TINYINT(1)  NULL  
+  - isStarter TINYINT(1)  NULL  
+  - isDesert TINYINT(1)  NULL  
+  - isDrink TINYINT(1)  NULL  
+  - createdAt DATETIME    
+  - updatedAt DATETIME    
+
+Foreign Keys:
+
+Indices:
+  - PRIMARY (id)
+
+
+4.10. Table mf5n7ujr436kt9bn.menus (menus)
+
+Columns:
+  - id INT(11)    
+  - dish_name VARCHAR(255)  NULL  
+  - dish_desc TEXT  NULL  
+  - dish_price DECIMAL(10,2)  NULL  
+  - createdAt DATETIME    
+  - updatedAt DATETIME    
+
+Foreign Keys:
+
+Indices:
+  - PRIMARY (id)
+
+
+4.11. Table mf5n7ujr436kt9bn.restaurants (restaurants)
+
+Columns:
+  - id INT(11)    
+  - name VARCHAR(255)  NULL  
+  - createdAt DATETIME    
+  - updatedAt DATETIME    
+
+Foreign Keys:
+
+Indices:
+  - PRIMARY (id)
+
+
+4.12. Table mf5n7ujr436kt9bn.starters (starters)
+
+Columns:
+  - id INT(11)    
+  - item_class VARCHAR(255)  NULL  
+  - dish_name VARCHAR(255)  NULL  
+  - dish_desc TEXT  NULL  
+  - dish_price DECIMAL(10,2)  NULL  
+  - createdAt DATETIME    
+  - updatedAt DATETIME    
+
+Foreign Keys:
+
+Indices:
+  - PRIMARY (id)
+
+
+II. Data Copy
+
+  - `mf5n7ujr436kt9bn`.`menuItems`
+            Succeeded : copied 0 of 0 rows from `mf5n7ujr436kt9bn`.`menuItems`    
+  - `mf5n7ujr436kt9bn`.`starters`
+            Succeeded : copied 15 of 15 rows from `mf5n7ujr436kt9bn`.`starters`    
+  - `mf5n7ujr436kt9bn`.`enuItems`
+            Succeeded : copied 0 of 0 rows from `mf5n7ujr436kt9bn`.`enuItems`    
+  - `mf5n7ujr436kt9bn`.`menuItem`
+            Succeeded : copied 26 of 26 rows from `mf5n7ujr436kt9bn`.`menuItem`    
+  - `mf5n7ujr436kt9bn`.`Steak`
+            Succeeded : copied 24 of 24 rows from `mf5n7ujr436kt9bn`.`Steak`    
+  - `mf5n7ujr436kt9bn`.`images`
+            Succeeded : copied 0 of 0 rows from `mf5n7ujr436kt9bn`.`images`    
+  - `mf5n7ujr436kt9bn`.`restaurants`
+            Succeeded : copied 0 of 0 rows from `mf5n7ujr436kt9bn`.`restaurants`    
+  - `mf5n7ujr436kt9bn`.`italian`
+            Succeeded : copied 26 of 26 rows from `mf5n7ujr436kt9bn`.`italian`    
+  - `mf5n7ujr436kt9bn`.`MenuItems_dup`
+            Succeeded : copied 0 of 0 rows from `mf5n7ujr436kt9bn`.`MenuItems_dup`    
+  - `mf5n7ujr436kt9bn`.`Restaurants`
+            Succeeded : copied 0 of 0 rows from `mf5n7ujr436kt9bn`.`Restaurants`    
+  - `mf5n7ujr436kt9bn`.`menus`
+            Succeeded : copied 1 of 1 rows from `mf5n7ujr436kt9bn`.`menus`    
+  - `mf5n7ujr436kt9bn`.`italians`
+            Succeeded : copied 26 of 26 rows from `mf5n7ujr436kt9bn`.`italians`    

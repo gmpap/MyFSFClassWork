@@ -1,0 +1,25 @@
+﻿item_class,dish_name,dish_desc,dish_price,dish_img
+Main,Shaved Prime Rib Sandwich ,"Shaved prime rib topped with onions, mushrooms and Swiss cheese on French Bread",12.99,https://i.postimg.cc/d0ppcjp3/shaved-beef.png
+Main,Ribeye,"Cut fresh and hand-trimmed. 12 ounces of our most juicy and flavorful steak, cut fresh from the rib loin, and distinguished by its rich marbling that runs through.",21.99,https://i.postimg.cc/zGd40rkn/ribeye.png
+Main,New York Strip,"Fire-grilled to enhance its distinctive flavor! This thick, 12 oz cut is a steakhouse classic.",21.99,https://i.postimg.cc/26PDTDrH/new-york-strip.jpg
+Main,Prime Rib,Slow-roasted for over 11 hours for tenderness and hand-carved to order. ,22.99,https://i.postimg.cc/htpR6xKQ/prime-rib.jpg
+Main,Baby Back Ribs,"Slow-cooked, fall-off-the-bone baby back ribs seasoned and fire-grilled for extra flavor. Brushed with our housemade sweet and smoky BBQ sauce.",17.49,https://i.postimg.cc/NLqz2GBc/full-slab-ribs.jpg
+Main,Fillet and Lobster tail,The best that surf and turf have to offer. Our signature center-cut filet paired with a succulent cold-water lobster tail and melted butter. ,30.29,https://i.postimg.cc/Kv727wVN/fillet-lobster.png
+Main,Sirloin & Half-Rack Baby Back Ribs,"Grilled sirloin paired with a half-rack of our slow-roasted, tender BBQ baby back ribs.",21.99,https://i.postimg.cc/fbBpqhjc/10oz-ribeye-ribs.jpg
+Main,Parmesan Crusted Chicken,"Our fresh, juicy, grilled chicken becomes irresistible when we top it with our creamy, crunchy Parmesan and garlic cheese crust.",15.29,https://i.postimg.cc/zvmsKFF6/parm-chicken.png
+Starter,ComboAppetizer,Boneless Buffalo Wings (tossed in your choice of Mild or Hot sauce) along with hot Bites and Tater Skins.  Substitute Fried Pickles at no additional charge.   Served with you choice of two dipping sauces.,10.99,https://i.postimg.cc/W3yKj6yt/combo-appetizer.jpg
+Starter,Boneless Buffalo Wings,Hand-breaded all white meat chicken tossed in your choice of Mild or Hot sauce and served with celery and Bleu Cheese dressing.,9.99,https://i.postimg.cc/0N8hCNm5/boneless-buffalo-wings.jpg
+Starter,Cheese Fries,A heaping amount of golden brown steak fries topped with melted cheddar cheese and bacon. ,10.49,https://i.postimg.cc/nVyFGvLH/cheese-fries.png
+Starter,Grilled Shrimp,Seasoned shrimp drizzled with garlic lemon pepper butter and served on toasted fresh-baked bread.,8.49,https://i.postimg.cc/C5f2Kny7/grilled-shrimp.jpg
+Dessert,Towering Midnight Fudge Cake,"Moist chocolate cake with Oreo® cookie crumbles baked inside. Served warm with creamy vanilla bean ice cream, hot fudge and whipped cream.",7.99,https://i.postimg.cc/QdXrfSZr/midnight-fudge-cake.png
+Dessert,Hot Fudge Sundae ,"Creamy vanilla bean ice cream topped with hot fudge, whipped cream and a cherry.   ",7.99,https://i.postimg.cc/Jn0g9dP9/hot-fudge-sundae-640.jpg
+Dessert,Peanut Butter Treat,"A peanut graham cracker crust covered with chocolate peanut ganache, creamy peanut butter silk and topped with peanut butter cups and roasted peanuts. Finished with a drizzle of caramel sauce.",5.49,https://i.postimg.cc/2jZmyV7g/peanutpetite-640x480-gridimage.jpg
+Dessert,Baked Chocolate Chip Cookie,A warm and gooey classic. A fresh skillet-baked chocolate chip cookie topped with creamy vanilla bean ice cream and a drizzle of chocolate sauce.,4.69,https://i.postimg.cc/y8CMkj8Z/chocochipcookieskillet-640x480.jpg
+Drinks,Soft drinks (Refills),,3.99,https://i.postimg.cc/NMXVsrv4/pop.jpg
+Drinks,Iced Tea (Refills) ,,4.25,https://i.postimg.cc/Gtj1RgWr/iced-tea.jpg
+Drinks,Hot Tea (Refills) ,,2.75,https://i.postimg.cc/rm8BJNdP/hot-tea.jpg
+Drinks,Coffee (Refills) ,,3,https://i.postimg.cc/DwG3yZkB/coffee.jpg
+Drinks,Milk,,2.75,https://i.postimg.cc/J009w753/milk.jpg
+Drinks,Beer,,2.75,https://i.postimg.cc/5tqcLRtz/beer.jpg
+Drinks,Red Wine,,2.75,https://i.postimg.cc/ncgtJm5X/red-wine.jpg
+Drinks,White Wine,,2.75,https://i.postimg.cc/bvjcGhq8/white-wine.jpg
